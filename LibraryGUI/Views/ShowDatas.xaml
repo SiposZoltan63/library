@@ -9,6 +9,34 @@
       Title="ShowDatas">
 
     <Grid>
-        <DataGrid x:Name="dataGrid1"/>
+
+        <Menu>
+            <MenuItem Header="_Read" Background="#FFF50000">
+                <MenuItem Header="Authors" Click="MenuItem_Click_1"/>
+                <MenuItem Header="Categories" Click="MenuItem_Click"/>
+                <MenuItem Header="Books" Click="MenuItem_Click_2"/>
+                <MenuItem Header="AuthorsBooks" Click="MenuItem_Click_3" />
+            </MenuItem>
+
+            <MenuItem Header="_Create" Background="#FF0056FF">
+                <MenuItem Header="Authors"/>
+                <MenuItem Header="Categories"/>
+                <MenuItem Header="Books"/>
+            </MenuItem>
+
+            <MenuItem Header="_Update" Background="#FF88FF00">
+                <MenuItem Header="Authors"/>
+                <MenuItem Header="Categories"/>
+                <MenuItem Header="Books"/>
+            </MenuItem>
+
+            <MenuItem Header="_Delete" Height="36" Width="51" Background="#FF0CFFEE">
+                <MenuItem Header="Authors"/>
+                <MenuItem Header="Categories"/>
+                <MenuItem Header="Books"/>
+            </MenuItem>
+        </Menu>
+        <DataGrid x:Name="dataGrid1" AutoGenerateColumns="True" Margin="22,35,10,21"/>
+
     </Grid>
 </Page>

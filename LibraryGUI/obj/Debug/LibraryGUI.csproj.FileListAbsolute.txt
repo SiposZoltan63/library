@@ -24,7 +24,6 @@ C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\Microsoft.Extensions.Log
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\Microsoft.Extensions.Options.dll
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\Microsoft.Extensions.Primitives.dll
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\MySql.Data.dll
-C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\MySql.EntityFrameworkCore.dll
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\System.Buffers.dll
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\System.Collections.Immutable.dll
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\System.ComponentModel.Annotations.dll
@@ -58,7 +57,6 @@ C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\Microsoft.Extensions.Log
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\Microsoft.Extensions.Options.xml
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\Microsoft.Extensions.Primitives.xml
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\MySql.Data.xml
-C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\MySql.EntityFrameworkCore.xml
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\System.Buffers.xml
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\System.Collections.Immutable.xml
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\System.Diagnostics.DiagnosticSource.xml
@@ -83,3 +81,16 @@ C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\LibraryGUI.pdb
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\LibraryGUI.exe.config
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\ShowDatas.g.cs
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\ShowDatas.baml
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\CreateAuthors.g.cs
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\CreateAuthors.baml
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\MySqlConnector.dll
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\Pomelo.JsonObject.dll
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\MySqlConnector.xml
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\bin\Debug\Pomelo.EntityFrameworkCore.MySql.xml
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\CreateBooks.g.cs
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\CreateBooks.baml
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\CreateCategories.g.cs
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\CreateCategories.baml

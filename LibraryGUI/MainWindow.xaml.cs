@@ -24,7 +24,7 @@ namespace LibraryGUI
         public MainWindow()
         {
             InitializeComponent();
-            MainPage.Navigate(new ShowDatas());
+            MainPage.Navigate(new CreateCategories());
         }
     }
 }

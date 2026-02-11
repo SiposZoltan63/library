@@ -27,8 +27,8 @@ namespace LibraryGUI.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseMySQL("server=localhost;database=librarydb;user=root;password=");
+                http://go.microsoft.com/fwlink/?LinkId=723263
+                optionsBuilder.UseMySql("server=localhost;database=librarydb;user=root;password=");
             }
         }
 
@@ -46,9 +46,9 @@ namespace LibraryGUI.Models
                     .HasColumnType("int(11)");
 
                 entity.Property(e => e.AuthorName)
-                    .IsRequired()
                     .HasColumnName("author_name")
-                    .HasMaxLength(100);
+                    .HasMaxLength(100)
+                    .HasDefaultValueSql("'NULL'");
             });
 
             modelBuilder.Entity<Books>(entity =>
@@ -59,10 +59,10 @@ namespace LibraryGUI.Models
                 entity.ToTable("books");
 
                 entity.HasIndex(e => e.AuthorId)
-                    .HasName("author_id");
+                    .HasName("FK_BookAuthor");
 
                 entity.HasIndex(e => e.CategoryId)
-                    .HasName("category_id");
+                    .HasName("FK_BookCategory");
 
                 entity.Property(e => e.BookId)
                     .HasColumnName("book_id")
@@ -70,32 +70,35 @@ namespace LibraryGUI.Models
 
                 entity.Property(e => e.AuthorId)
                     .HasColumnName("author_id")
-                    .HasColumnType("int(11)");
+                    .HasColumnType("int(11)")
+                    .HasDefaultValueSql("'NULL'");
 
                 entity.Property(e => e.CategoryId)
                     .HasColumnName("category_id")
-                    .HasColumnType("int(11)");
+                    .HasColumnType("int(11)")
+                    .HasDefaultValueSql("'NULL'");
 
                 entity.Property(e => e.PublishDate)
                     .HasColumnName("publish_date")
-                    .HasColumnType("date");
+                    .HasColumnType("date")
+                    .HasDefaultValueSql("'NULL'");
 
                 entity.Property(e => e.Title)
-                    .IsRequired()
                     .HasColumnName("title")
-                    .HasMaxLength(200);
+                    .HasMaxLength(200)
+                    .HasDefaultValueSql("'NULL'");
 
                 entity.HasOne(d => d.Author)
                     .WithMany(p => p.Books)
                     .HasForeignKey(d => d.AuthorId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("books_ibfk_1");
+                    .OnDelete(DeleteBehavior.Cascade)
+                    .HasConstraintName("FK_BookAuthor");
 
                 entity.HasOne(d => d.Category)
                     .WithMany(p => p.Books)
                     .HasForeignKey(d => d.CategoryId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("books_ibfk_2");
+                    .OnDelete(DeleteBehavior.Cascade)
+                    .HasConstraintName("FK_BookCategory");
             });
 
             modelBuilder.Entity<Categories>(entity =>
@@ -110,9 +113,9 @@ namespace LibraryGUI.Models
                     .HasColumnType("int(11)");
 
                 entity.Property(e => e.CategoryName)
-                    .IsRequired()
                     .HasColumnName("category_name")
-                    .HasMaxLength(100);
+                    .HasMaxLength(100)
+                    .HasDefaultValueSql("'NULL'");
             });
 
             OnModelCreatingPartial(modelBuilder);
