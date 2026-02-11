@@ -18,7 +18,7 @@
                 <MenuItem Header="AuthorsBooks" Click="MenuItem_Click_3" />
             </MenuItem>
 
-            <MenuItem Header="_Create" Background="#FF0056FF">
+            <MenuItem Header="_Create" Background="#FF0056FF" Click="MenuItem_Click_4">
                 <MenuItem Header="Authors"/>
                 <MenuItem Header="Categories"/>
                 <MenuItem Header="Books"/>

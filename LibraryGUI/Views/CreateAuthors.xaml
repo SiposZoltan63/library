@@ -11,5 +11,6 @@
     <Grid Background="White">
         <Button Content="Hozzáad" HorizontalAlignment="Center"  Margin="0,312,0,0" VerticalAlignment="Top" Height="61" Width="150" Background="{x:Null}" Click="Button_Click"/>
         <TextBox HorizontalAlignment="Center" Margin="0,188,0,0" TextWrapping="Wrap" Text="" x:Name="authorText" VerticalAlignment="Top" Width="150" Height="79"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,89,0,0" TextWrapping="Wrap" Text="Authors hozzá adása" VerticalAlignment="Top" Width="239" Height="46" FontSize="24"/>
     </Grid>
 </Page>
