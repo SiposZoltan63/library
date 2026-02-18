@@ -11,6 +11,7 @@ namespace LibraryGUI.Views
     public partial class ShowDatas : Page
     {
         Read read = new Read();
+        CreateAuthors createAuthors = new CreateAuthors();
         private readonly MainWindow _mainWindow;
         public ShowDatas(MainWindow mainWindow)
         {
@@ -40,6 +41,18 @@ namespace LibraryGUI.Views
         {
             var list = read.ReadAuthorsWithBooks();
             dataGrid1.ItemsSource = list;
+        }
+        private void CreateAuthorsMenu(object sender, RoutedEventArgs e)
+        {
+            _mainWindow.MainPage.Navigate(new CreateAuthors());
+        }
+        private void CreateBooksMenu(object sender, RoutedEventArgs e)
+        {
+            _mainWindow.MainPage.Navigate(new CreateBooks());
+        }
+        private void CreateCategoriesMenu(object sender, RoutedEventArgs e)
+        {
+            _mainWindow.MainPage.Navigate(new CreateCategories());
         }
     }
 }

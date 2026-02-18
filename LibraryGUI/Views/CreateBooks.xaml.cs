@@ -29,7 +29,8 @@ namespace LibraryGUI.Views
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            create.CreateBooks(bookText.Text);
+            create.CreateBooks(bookText.Text, int.Parse(BookAuthortext.Text), int.Parse(BookCategoriestext.Text), DateTime.Parse(BookDatePicker.Text));
+            
         }
     }
 }

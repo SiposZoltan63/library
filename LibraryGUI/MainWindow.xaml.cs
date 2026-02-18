@@ -26,5 +26,6 @@ namespace LibraryGUI
             InitializeComponent();
             MainPage.Navigate(new ShowDatas(this));
         }
+
     }
 }

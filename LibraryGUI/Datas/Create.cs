@@ -22,13 +22,16 @@ namespace LibraryGUI.Datas
                 return new { message = "Sikeres felvétel", result = author };
             }  
         }
-        public object CreateBooks(string name)
+        public object CreateBooks(string name,int Bookauthorid,int BookCategoriesid,DateTime Bookdatepicker)
         {
             using (var context = new librarydbContext())
             {
                 var book = new Books
                 {
-                    Title = name
+                    Title = name,
+                    AuthorId = Bookauthorid,
+                    CategoryId = BookCategoriesid,
+                    PublishDate = Bookdatepicker
                 };
                 context.Books.Add(book);
                 context.SaveChanges();

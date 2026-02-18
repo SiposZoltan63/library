@@ -9,8 +9,17 @@
       Title="CreateBooks">
 
     <Grid Background="White">
-        <Button Content="Hozzáad" HorizontalAlignment="Center"  Margin="0,312,0,0" VerticalAlignment="Top" Height="61" Width="150" Background="{x:Null}" Click="Button_Click"/>
-        <TextBox HorizontalAlignment="Center" Margin="0,188,0,0" TextWrapping="Wrap" Text="" x:Name="bookText" VerticalAlignment="Top" Width="150" Height="79"/>
-        <TextBox HorizontalAlignment="Center" Margin="0,116,0,0" TextWrapping="Wrap" Text="Book hozzá adása" VerticalAlignment="Top" Width="212" FontSize="24"/>
+        <StackPanel Margin="10,10,10,10">
+            <TextBox TextWrapping="Wrap" Text="" x:Name="bookText" Width="150" Height="78"/>
+            <Label Content="Book hozzáadása" FontSize="20" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" Height="32" Width="182"/>
+            <TextBox x:Name="BookAuthortext" TextWrapping="Wrap" Text="" Width="146" Height="78"/>
+            <Label Content="Book" FontSize="20" Height="46" Width="72"/>
+            <Button Content="Hozzáad" Height="61" Width="150" Background="{x:Null}" Click="Button_Click"/>
+            <Label Content="Authors Azonosító" FontSize="20" HorizontalAlignment="Left" Margin="512,135,0,0" VerticalAlignment="Top"/>
+            <DatePicker x:Name="BookDatePicker" HorizontalAlignment="Center" VerticalAlignment="Center" Height="78" Width="140"/>
+            <Label FontSize="20" Content="Kiadás dátuma" HorizontalAlignment="Center" Margin="0,135,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="BookCategoriestext" HorizontalAlignment="Left" Margin="126,342,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Height="78"/>
+            <Label FontSize="20" Content="Categories Azonosító" HorizontalAlignment="Left" Margin="126,285,0,0" VerticalAlignment="Top" Width="150"/>
+        </StackPanel>
     </Grid>
 </Page>

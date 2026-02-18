@@ -78,7 +78,6 @@ C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\LibraryGUI.csproj.CoreCo
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\LibraryGUI.csproj.Up2Date
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\LibraryGUI.exe
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\LibraryGUI.pdb
-C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\LibraryGUI.exe.config
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\ShowDatas.g.cs
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\ShowDatas.baml
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\CreateAuthors.g.cs
@@ -94,3 +93,4 @@ C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\CreateBooks.g.cs
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\CreateBooks.baml
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\CreateCategories.g.cs
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\CreateCategories.baml
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\LibraryGUI.exe.config
