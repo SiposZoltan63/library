@@ -186,6 +186,12 @@
     <Compile Include="Views\DeleteAuthor.xaml.cs">
       <DependentUpon>DeleteAuthor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\DeleteBooks.xaml.cs">
+      <DependentUpon>DeleteBooks.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DeleteCategories.xaml.cs">
+      <DependentUpon>DeleteCategories.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ShowDatas.xaml.cs">
       <DependentUpon>ShowDatas.xaml</DependentUpon>
     </Compile>
@@ -215,6 +221,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\DeleteAuthor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\DeleteBooks.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\DeleteCategories.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -24,8 +24,8 @@
         <TextBox x:Name="BookAuthortext" HorizontalAlignment="Left" Margin="610,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="55"/>
         <DatePicker x:Name="BookDatePicker" HorizontalAlignment="Left" Margin="638,263,0,0" VerticalAlignment="Top"/>
         <Label Content="BookCategories" HorizontalAlignment="Left" Margin="173,88,0,0" VerticalAlignment="Top"/>
-        <Label Content="BookAuthor" HorizontalAlignment="Left" Margin="416,88,0,0" VerticalAlignment="Top"/>
-        <Label Content="Book title" HorizontalAlignment="Left" Margin="664,88,0,0" VerticalAlignment="Top"/>
+        <Label Content="BookAuthor" HorizontalAlignment="Left" Margin="650,88,0,0" VerticalAlignment="Top"/>
+        <Label Content="Book title" HorizontalAlignment="Left" Margin="398,83,0,0" VerticalAlignment="Top"/>
         <Label Content="Dátum kiválasztása" HorizontalAlignment="Left" Margin="650,225,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Page>

@@ -31,8 +31,8 @@
 
             <MenuItem Header="_Delete" Height="36" Width="51" Background="#FF0CFFEE">
                 <MenuItem Click="DeleteAuthorMenu" Header="Authors"/>
-                <MenuItem Header="Categories"/>
-                <MenuItem Header="Books"/>
+                <MenuItem Click="DeleteCategoriesMenu" Header="Categories"/>
+                <MenuItem Click="DeleteBookMenu" Header="Books"/>
             </MenuItem>
         </Menu>
         <DataGrid x:Name="dataGrid1" AutoGenerateColumns="True" Margin="10,44,10,10"/>

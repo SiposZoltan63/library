@@ -95,3 +95,8 @@ C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\CreateCategories.g
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\CreateCategories.baml
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\DeleteAuthor.g.cs
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\DeleteAuthor.baml
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\LibraryGUI.exe.config
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\DeleteBooks.g.cs
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\DeleteCategories.g.cs
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\DeleteBooks.baml
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\DeleteCategories.baml
