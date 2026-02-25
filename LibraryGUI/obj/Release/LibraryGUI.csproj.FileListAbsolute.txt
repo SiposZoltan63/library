@@ -1,0 +1,9 @@
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Release\LibraryGUI.csproj.AssemblyReference.cache
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Release\MainWindow.g.cs
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Release\Views\CreateAuthors.g.cs
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Release\Views\CreateBooks.g.cs
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Release\Views\CreateCategories.g.cs
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Release\Views\ShowDatas.g.cs
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Release\App.g.cs
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Release\LibraryGUI_MarkupCompile.cache
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Release\LibraryGUI_MarkupCompile.lref

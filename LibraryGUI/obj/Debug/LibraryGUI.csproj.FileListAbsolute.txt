@@ -93,4 +93,5 @@ C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\CreateBooks.g.cs
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\CreateBooks.baml
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\CreateCategories.g.cs
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\CreateCategories.baml
-C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\LibraryGUI.exe.config
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\DeleteAuthor.g.cs
+C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\obj\Debug\Views\DeleteAuthor.baml

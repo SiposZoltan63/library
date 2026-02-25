@@ -172,6 +172,8 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Datas\Create.cs" />
+    <Compile Include="Datas\Delete.cs" />
+    <Compile Include="Models\LibraryResults.cs" />
     <Compile Include="Views\CreateAuthors.xaml.cs">
       <DependentUpon>CreateAuthors.xaml</DependentUpon>
     </Compile>
@@ -180,6 +182,9 @@
     </Compile>
     <Compile Include="Views\CreateCategories.xaml.cs">
       <DependentUpon>CreateCategories.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DeleteAuthor.xaml.cs">
+      <DependentUpon>DeleteAuthor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ShowDatas.xaml.cs">
       <DependentUpon>ShowDatas.xaml</DependentUpon>
@@ -206,6 +211,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\CreateCategories.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\DeleteAuthor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -27,7 +27,6 @@ namespace LibraryGUI.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                http://go.microsoft.com/fwlink/?LinkId=723263
                 optionsBuilder.UseMySql("server=localhost;database=librarydb;user=root;password=");
             }
         }

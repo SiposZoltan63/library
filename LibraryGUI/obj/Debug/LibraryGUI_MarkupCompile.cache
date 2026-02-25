@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\siposz\Gitwork\LibraryGUI\LibraryGUI\App.xaml
-5970827269
+6253855645
 
-151159441775
+18-1310663468
 55-1494049124
-MainWindow.xaml;Views\CreateAuthors.xaml;Views\CreateBooks.xaml;Views\CreateCategories.xaml;Views\ShowDatas.xaml;
+MainWindow.xaml;Views\CreateAuthors.xaml;Views\CreateBooks.xaml;Views\CreateCategories.xaml;Views\DeleteAuthor.xaml;Views\ShowDatas.xaml;
 
 False
 

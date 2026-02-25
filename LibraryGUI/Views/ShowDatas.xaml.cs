@@ -54,5 +54,9 @@ namespace LibraryGUI.Views
         {
             _mainWindow.MainPage.Navigate(new CreateCategories());
         }
+        private void DeleteAuthorMenu(object sender, RoutedEventArgs e)
+        {
+            _mainWindow.MainPage.Navigate(new DeleteAuthor());
+        }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using LibraryGUI.Datas;
+using LibraryGUI.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,19 +18,18 @@ using System.Windows.Shapes;
 namespace LibraryGUI.Views
 {
     /// <summary>
-    /// Interaction logic for CreateAuthors.xaml
+    /// Interaction logic for DeleteAuthor.xaml
     /// </summary>
-    public partial class CreateBooks : Page
+    public partial class DeleteAuthor : Page
     {
-        Create create = new Create();
-        public CreateBooks()
+        public DeleteAuthor()
         {
             InitializeComponent();
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void dataGrid2_SelectionChanged(object sender, RoutedEventArgs e)
         {
-            create.CreateBooks(bookText.Text, int.Parse(BookAuthortext.Text), int.Parse(BookCategoriestext.Text), DateTime.Parse(BookDatePicker.Text));
+            var record = dataGrid2.CurrentItem as Authors;
+            var Result = MessageBox.Show($"Biztos törlöd");
         }
     }
 }

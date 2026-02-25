@@ -9,17 +9,23 @@
       Title="CreateBooks">
 
     <Grid Background="White">
-        <StackPanel Margin="10,10,10,10">
-            <Label Content="Book hozzáadása" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" Height="32" Width="182"/>
-            <TextBox TextWrapping="Wrap" Text="" x:Name="bookText" Width="122" Height="70"/>
-            <TextBox x:Name="BookAuthortext" TextWrapping="Wrap" Text="" Width="118" Height="64"/>
-            <Label Content="Book" FontSize="20" Height="46" Width="72"/>
-            <Button Content="Hozzáad" Height="61" Width="150" Background="{x:Null}" Click="Button_Click"/>
-            <Label Content="Authors Azonosító" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-            <DatePicker x:Name="BookDatePicker" HorizontalAlignment="Center" VerticalAlignment="Center" Height="78" Width="140"/>
-            <Label FontSize="20" Content="Kiadás dátuma" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-            <TextBox x:Name="BookCategoriestext" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Height="78"/>
-            <Label FontSize="20" Content="Categories Azonosító" HorizontalAlignment="Left" Margin="126,285,0,0" VerticalAlignment="Top" Width="150"/>
-        </StackPanel>
+        <Button Content="Hozzáad" HorizontalAlignment="Left" Margin="340,243,0,0" VerticalAlignment="Top" Height="84" Width="177" Click="Button_Click"/>
+        <TextBox x:Name="bookText" HorizontalAlignment="Left" Margin="358,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="55">
+            <UIElement.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </UIElement.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="BookCategoriestext" HorizontalAlignment="Left" Margin="150,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="55"/>
+        <TextBox x:Name="BookAuthortext" HorizontalAlignment="Left" Margin="610,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="55"/>
+        <DatePicker x:Name="BookDatePicker" HorizontalAlignment="Left" Margin="638,263,0,0" VerticalAlignment="Top"/>
+        <Label Content="BookCategories" HorizontalAlignment="Left" Margin="173,88,0,0" VerticalAlignment="Top"/>
+        <Label Content="BookAuthor" HorizontalAlignment="Left" Margin="416,88,0,0" VerticalAlignment="Top"/>
+        <Label Content="Book title" HorizontalAlignment="Left" Margin="664,88,0,0" VerticalAlignment="Top"/>
+        <Label Content="Dátum kiválasztása" HorizontalAlignment="Left" Margin="650,225,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Page>
