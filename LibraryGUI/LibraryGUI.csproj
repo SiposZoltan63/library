@@ -173,6 +173,7 @@
     </ApplicationDefinition>
     <Compile Include="Datas\Create.cs" />
     <Compile Include="Datas\Delete.cs" />
+    <Compile Include="Datas\Update.cs" />
     <Compile Include="Models\LibraryResults.cs" />
     <Compile Include="Views\CreateAuthors.xaml.cs">
       <DependentUpon>CreateAuthors.xaml</DependentUpon>
@@ -194,6 +195,15 @@
     </Compile>
     <Compile Include="Views\ShowDatas.xaml.cs">
       <DependentUpon>ShowDatas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UpdateAuthors.xaml.cs">
+      <DependentUpon>UpdateAuthors.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UpdateBooks.xaml.cs">
+      <DependentUpon>UpdateBooks.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UpdateCategories.xaml.cs">
+      <DependentUpon>UpdateCategories.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -233,6 +243,18 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\ShowDatas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\UpdateAuthors.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\UpdateBooks.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\UpdateCategories.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

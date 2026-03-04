@@ -9,6 +9,23 @@
       Title="UpdateBooks">
 
     <Grid Background="White">
-        
+        <Button Content="Frissít" HorizontalAlignment="Left" Margin="340,243,0,0" VerticalAlignment="Top" Height="84" Width="177" Click="Button_Click"/>
+        <TextBox x:Name="bookText" HorizontalAlignment="Left" Margin="358,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="55">
+            <UIElement.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </UIElement.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="BookCategoriestext" HorizontalAlignment="Left" Margin="150,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="55"/>
+        <TextBox x:Name="BookAuthortext" HorizontalAlignment="Left" Margin="610,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="55"/>
+        <DatePicker x:Name="BookDatePicker" HorizontalAlignment="Left" Margin="638,263,0,0" VerticalAlignment="Top"/>
+        <Label Content="BookCategories" HorizontalAlignment="Left" Margin="173,88,0,0" VerticalAlignment="Top"/>
+        <Label Content="BookAuthor" HorizontalAlignment="Left" Margin="650,88,0,0" VerticalAlignment="Top"/>
+        <Label Content="Book title" HorizontalAlignment="Left" Margin="398,83,0,0" VerticalAlignment="Top"/>
+        <Label Content="Dátum kiválasztása" HorizontalAlignment="Left" Margin="650,225,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Page>

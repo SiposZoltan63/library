@@ -66,5 +66,17 @@ namespace LibraryGUI.Views
         {
             _mainWindow.MainPage.Navigate(new DeleteCategories());
         }
+        private void UpdateAuthorsMenu(object sender, RoutedEventArgs e)
+        {
+            _mainWindow.MainPage.Navigate(new UpdateAuthors());
+        }
+        private void UpdateBooksMenu(object sender, RoutedEventArgs e)
+        {
+            _mainWindow.MainPage.Navigate(new UpdateBooks());
+        }
+        private void UpdateCategoriesMenu(object sender, RoutedEventArgs e)
+        {
+            _mainWindow.MainPage.Navigate(new UpdateCategories());
+        }
     }
 }

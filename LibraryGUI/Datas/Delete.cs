@@ -16,7 +16,7 @@ namespace LibraryGUI.Datas
             {
                 var author = context.Authors.Find(id);
 
-                if (author != null) 
+                if (author != null)
                 {
                     context.Authors.Remove(author);
                     context.SaveChanges();
@@ -24,6 +24,7 @@ namespace LibraryGUI.Datas
                     results.Result = author;
                     return results;
                 }
+
                 results.Message = "Sikertelen törlés";
                 results.Result = author;
                 return results;

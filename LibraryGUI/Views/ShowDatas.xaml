@@ -24,9 +24,9 @@
             </MenuItem>
 
             <MenuItem Header="_Update" Background="#FF88FF00">
-                <MenuItem Header="Authors"/>
-                <MenuItem Header="Categories"/>
-                <MenuItem Header="Books"/>
+                <MenuItem Click="UpdateAuthorsMenu" Header="Authors"/>
+                <MenuItem Click="UpdateCategoriesMenu" Header="Categories"/>
+                <MenuItem Click="UpdateBooksMenu" Header="Books"/>
             </MenuItem>
 
             <MenuItem Header="_Delete" Height="36" Width="51" Background="#FF0CFFEE">

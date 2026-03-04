@@ -1,19 +1,9 @@
 ﻿using LibraryGUI.Datas;
 using LibraryGUI.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+
 
 namespace LibraryGUI.Views
 {
@@ -23,28 +13,32 @@ namespace LibraryGUI.Views
     public partial class DeleteAuthor : Page
     {
         Read read = new Read();
+        Delete delete = new Delete();
         public DeleteAuthor()
         {
             InitializeComponent();
+            dataGrid2.ItemsSource = read.ReadAuthors();
         }
-        public List<Authors> ReadAuthors()
-        {
-
-            using (var context = new librarydbContext())
-            {
-                var users = context.Authors.ToList();
-                return users;
-            }
-        }
-        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
-        {
-            var list = read.ReadAuthors();
-            dataGrid2.ItemsSource = list;
-        }
-        private void dataGrid2_SelectionChanged(object sender, RoutedEventArgs e)
+        private void dataGrid2_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
             var record = dataGrid2.CurrentItem as Authors;
-            var Result = MessageBox.Show($"Biztos törlöd");
+
+            var Result = MessageBox.Show($"Biztos törlöd {record.AuthorName} adatait?", "Kategória törlés", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+            if (Result == MessageBoxResult.Yes)
+            {
+                var author = delete.DeleteAuthor(record.AuthorId) as LibraryResults;
+                MessageBox.Show(author.Message);
+                dataGrid2.ItemsSource = read.ReadAuthors();
+            }
+        }
+
+        private void dataGrid2_AutoGeneratingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)
+        {
+            if (e.PropertyType.IsClass && e.PropertyType != typeof(string))
+            {
+                e.Cancel = true;
+            }
         }
     }
 }
