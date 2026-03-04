@@ -10,8 +10,7 @@
 
     <Grid Background="White">
         <Button Content="Frissít" HorizontalAlignment="Center"  Margin="0,312,0,0" VerticalAlignment="Top" Height="61" Width="150" Background="{x:Null}" Click="Button_Click"/>
-        <TextBox HorizontalAlignment="Center" Margin="0,188,0,0" TextWrapping="Wrap" Text="" x:Name="authorText" VerticalAlignment="Top" Width="150" Height="79"/>
         <Label Content="Categories Update" FontSize="20" HorizontalAlignment="Center" Margin="0,105,0,0" VerticalAlignment="Top" Height="54" Width="173"/>
-
+        <ComboBox x:Name="CategoriesComboBox" HorizontalAlignment="Center" Margin="0,177,0,0" VerticalAlignment="Top" Width="150" Height="48"/>
     </Grid>
 </Page>
